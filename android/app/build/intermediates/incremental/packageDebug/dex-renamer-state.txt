@@ -1,4 +1,4 @@
-#Mon Nov 27 13:51:01 CET 2017
+#Mon Nov 27 14:09:08 CET 2017
 base.0=/Users/yamalight/Projects/bxjs/exproing-rn/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/yamalight/Projects/bxjs/exproing-rn/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

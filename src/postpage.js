@@ -3,6 +3,7 @@ import {View, ListView, WebView, Text} from 'react-native';
 
 import styles from './styles';
 import Comment from './comment';
+import ToastModule from './toast';
 
 const baseUrl = 'https://hacker-news.firebaseio.com/v0';
 
@@ -26,6 +27,8 @@ export default class PostPage extends React.Component {
       (this.state.post.kids || []).map(id => fetch(`${baseUrl}/item/${id}.json`).then(r => r.json()))
     );
     this.setState({comments: this.ds.cloneWithRows(comments)});
+
+    setTimeout(() => ToastModule.show('Hello from the awesome toast!', ToastModule.LONG), 1000);
   }
 
   render() {
