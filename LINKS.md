@@ -26,7 +26,12 @@ URLs mentioned in the React-Native video:
 
     * https://github.com/react-community/create-react-native-app#npm-run-eject
 
-* Ecosystem
+  * Native modules
+
+    * https://facebook.github.io/react-native/docs/native-modules-android.html
+    * https://facebook.github.io/react-native/docs/native-modules-ios.html
+
+- Ecosystem
 
   * Other RN implementations
 
@@ -49,17 +54,12 @@ URLs mentioned in the React-Native video:
 
     * https://github.com/jondot/awesome-react-native
 
-* Online playgrounds
+- Online playgrounds
 
   * repl.it (requires device)
   * snack.expo.io (doesn't require device)
 
-* React-native-node
+- React-native-node
 
   * https://github.com/staltz/react-native-node
   * https://code.janeasystems.com/nodejs-mobile
-
-* Native modules
-
-  * https://facebook.github.io/react-native/docs/native-modules-android.html
-  * https://facebook.github.io/react-native/docs/native-modules-ios.html
